@@ -1,0 +1,1579 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2019/2/21" version="16.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+  <!--
+	*** Important Notes:
+	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
+	2. Locale settings are placed in a separate locale files under the "locales" folder,
+	3. Locale files must be named with language ID of language file (and converted to lowercase), e.g. en.json,
+	4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
+-->
+  <global>
+    <phrase id="accept" value="Accept" />
+    <!-- v2018.1 -->
+    <phrase id="actiondeleted" value="Eliminado" />
+    <phrase id="actioninserted" value="Insertado" />
+    <phrase id="actioninsertedgridadd" value="Insertado (Grid-Add)" />
+    <phrase id="actionupdated" value="Actualizado" />
+    <phrase id="actionupdatedgridedit" value="Actualizado (Grid-Edit)" />
+    <phrase id="actionupdatedmultiupdate" value="Actualizado (Multi-Update)" />
+    <phrase id="activateaccount" value="Su cuenta está activada" />
+    <phrase id="activatefailed" value="Falló la activacioón" />
+    <phrase id="add" value="Añadir" />
+    <phrase id="addblankrow" value="Añadir fila en blanco" class="fa fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="addbtn" value="Añadir" client="1" />
+    <!-- v2018 -->
+    <phrase id="addlink" value="Añadir" class="fa fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="addmasterdetaillink" value="Principal/ Añadir detalles" class="icon-md-add ew-icon" />
+    <!-- v12 -->
+    <phrase id="addsuccess" value="Añadido con éxito" />
+    <phrase id="advancedsearch" value="Búsqueda Avanzada" />
+    <!-- v12 -->
+    <phrase id="advancedsearchbtn" value="Búsqueda Avanzada" class="icon-advanced-search ew-icon" />
+    <!-- v12 -->
+    <phrase id="allrecords" value="Todos" />
+    <phrase id="allword" value="todas las palabras" />
+    <phrase id="alwaysask" value="Pedir siempre mi usuario y contraseña" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="anyword" value="Cualquier palabra" />
+    <phrase id="audittrailautologin" value="Inicio de sesión automático" />
+    <phrase id="audittrailfailedattempt" value="Intento fallido: %n" />
+    <phrase id="audittrailuserloggedin" value="el usuario ya está conectado" />
+    <phrase id="audittrailpasswordexpired" value="La contraseña expiró" />
+    <phrase id="audittraillogin" value="Iniciar sesión" />
+    <phrase id="audittraillogout" value="Cerrar sesión" />
+    <phrase id="autologin" value="Inicio de sesión automático hasta que cierre sesión explícitamente" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="autologinfailed" value="Error de inicio de sesión automático" />
+    <!-- v2018 -->
+    <phrase id="average" value="Promedio" />
+    <phrase id="backtolist" value="Volver a la lista" />
+    <phrase id="backtologin" value="Volver a la página de inicio de sesión" />
+    <phrase id="backtomasterrecordpage" value="Volver la tabla principal" />
+    <phrase id="batchdeletebegin" value="*** Inicio de eliminación de lotes ***" />
+    <phrase id="batchdeleterollback" value="*** Eliminar lotes de reversión ***" />
+    <phrase id="batchdeletesuccess" value="*** Lote eliminado exitoso ***" />
+    <phrase id="batchinsertbegin" value="*** Inicio de lote***" />
+    <phrase id="batchinsertrollback" value="*** Lote de reversión insertado***" />
+    <phrase id="batchinsertsuccess" value="*** Lote insertado exitoso***" />
+    <phrase id="batchupdatebegin" value="*** Inicio de actualización de lote***" />
+    <phrase id="batchupdaterollback" value="*** Lote de actualización de reversión***" />
+    <phrase id="batchupdatesuccess" value="*** Actualización por lotes exitosa***" />
+    <phrase id="buttonactions" value="Acciones" class="icon-options ew-icon" />
+    <!-- v12 -->
+    <phrase id="buttonaddedit" value="Añadir/Editar" class="icon-addedit ew-icon" />
+    <!-- v12 -->
+    <phrase id="buttondetails" value="Principal/Detalles" class="icon-master-detail ew-icon" />
+    <!-- v12 -->
+    <phrase id="buttonexport" value="Exportar" class="fa fa-download ew-icon" />
+    <!-- v2019 -->
+    <phrase id="buttonimport" value="Importar" class="fa fa-upload ew-icon" />
+    <!-- v2019 -->
+    <phrase id="buttonlistoptions" value="Opciones" class="icon-options ew-icon" />
+    <!-- v12 -->
+    <phrase id="buttonsearch" value="Buscar" class="icon-search ew-icon" />
+    <!-- v12 -->
+    <phrase id="cancelbtn" value="Cancelar" client="1" />
+    <!-- v2017 -->
+    <phrase id="cancellink" value="Cancelar" class="fa fa-times ew-icon" />
+    <!-- v2019 -->
+    <phrase id="changepwd" value="Cambiar Contaseña" />
+    <phrase id="changepwdmsg" value="Cambiar Contaseña" />
+    <!-- v2019 -->
+    <phrase id="changepwdpage" value="Cambiar Contaseña" />
+    <phrase id="changepwdbtn" value="Cambiar" />
+    <phrase id="choosefilebtn" value="Elegir.." />
+    <!-- v12 -->
+    <phrase id="choosefile" value="Elegir archivo" />
+    <!-- v12 -->
+    <phrase id="choosefiles" value="Elegir archivo" />
+    <!-- v12 -->
+    <phrase id="clickrecaptcha" value="Por favor gacer click en reCAPTCHA" client="1" />
+    <!-- v2016 -->
+    <phrase id="closebtn" value="Cerrar" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirm" value="Confirmar" />
+    <phrase id="confirmbtn" value="Confirmar" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirmcancel" value="¿Deseas cancelar?" client="1" />
+    <!-- v2016 -->
+    <phrase id="confirmpassword" value="Confirmar contraseña" />
+    <phrase id="conflictcancellink" value="Cancelar" />
+    <phrase id="cookieconsentsummary" value="Use este espacio para resumir su política de privacidad y uso de cookies." />
+    <!-- v2019 -->
+    <phrase id="closeaccountbtn" value="Borrar datos y cerrar mi cuenta" />
+    <!-- v2018.1 -->
+    <phrase id="copy" value="Copiar" />
+    <phrase id="copylink" value="Copiar" class="icon-copy ew-icon" />
+    <!-- v12 -->
+    <phrase id="count" value="Cuenta" />
+    <phrase id="countselected" value="Seleccionado" client="1" />
+    <!-- v2016 -->
+    <phrase id="currentpassword" value="Contraseña actual: " client="1" />
+    <!-- v2016 -->
+    <phrase id="customactioncompleted" value="'%s' Completado" />
+    <phrase id="customactioncancelled" value="'%s' Canceldo" />
+    <phrase id="customactionfailed" value="'%s' Fallido" />
+    <!-- v2016 -->
+    <phrase id="customactionnotallowed" value="'%s' no admitido" />
+    <!-- v2016 -->
+    <phrase id="customview" value="VISTA PERSONALIZADA" />
+    <phrase id="delete" value="Eliminar" />
+    <phrase id="deletebtn" value="Eliminar" />
+    <phrase id="deletecancelled" value="Eliminación Cancelada" />
+    <phrase id="deleteconfirmmsg" value="Esta seguro que quiere eliminar?" client="1" />
+    <phrase id="deletefilter" value="Eliminar filto" />
+    <!-- v2016 -->
+    <phrase id="deletefilterconfirm" value="Eliminar filtro %s?" client="1" />
+    <!-- v2016 -->
+    <phrase id="deletelink" value="eliminar" class="fa fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="deletemulticonfirmmsg" value="¿Quieres eliminar los registros seleccionados?" client="1" />
+    <phrase id="deleteselectedlink" value="Eliminar registros seleccionados" class="fa fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="deletesuccess" value="Eliminado exitosamente" />
+    <phrase id="detaillink" value="" />
+    <phrase id="detailcount" value="&lt;span class='badge badge-info ew-detail-count%c'&gt;%c&lt;/span&gt;" />
+    <!-- v2019 -->
+    <phrase id="downloadbtn" value="Descargar" />
+    <!-- v2019 -->
+    <phrase id="dupindex" value="Valor duplicado'%v' por index único'%f'" />
+    <phrase id="dupkey" value="Clave principal duplicada: '%f'" />
+    <phrase id="edit" value="Edit" />
+    <phrase id="editbtn" value="Editar" client="1" />
+    <!-- v2018 -->
+    <phrase id="editlink" value="Editar" class="icon-edit ew-icon" />
+    <!-- v12 -->
+    <phrase id="enterfiltername" value="Ingrese el nombre del filtro" client="1" />
+    <!-- v2016 -->
+    <phrase id="enternewpassword" value="Por favor ingrese una nueva contraseña" client="1" />
+    <phrase id="enteroldpassword" value="Por favor ingrese la contraseña antigua" client="1" />
+    <phrase id="enterpassword" value="Por favor, ingrese contraseña" client="1" />
+    <phrase id="enterpwd" value="Por favor, ingrese contraseña" client="1" />
+    <phrase id="enterrequiredfield" value="Por favor, ingrese el campo requerido- %s" />
+    <!-- v12 -->
+    <phrase id="entersearchcriteria" value="Por favor ingrese los criterios de búsqueda" />
+    <phrase id="enterusername" value="Por favor ingrese su nombre de usuario" client="1" />
+    <phrase id="entervalidatecode" value="Introduzca el código de validación mostrado." client="1" />
+    <!-- v12 -->
+    <phrase id="entersenderemail" value="Por favor ingrese el email del remitente" client="1" />
+    <phrase id="enterpropersenderemail" value="Superar el número máximo de correos electrónicos del remitente o la dirección de correo electrónico incorrecta" client="1" />
+    <phrase id="enterrecipientemail" value="Por favor ingrese el email del destinatario" client="1" />
+    <phrase id="enterproperrecipientemail" value="Excede el número máximo de correos electrónicos del destinatario o la dirección de correo electrónico incorrecta" client="1" />
+    <phrase id="enterproperccemail" value="Superar el número máximo de cc o la dirección de correo electrónico incorrecta" client="1" />
+    <phrase id="enterproperbccemail" value="Superar el número máximo de correo electrónico bcc o la dirección de correo electrónico incorrecta" client="1" />
+    <phrase id="entersubject" value="Por favor ingrese el asunto" client="1" />
+    <phrase id="emailformsender" value="De" />
+    <phrase id="emailformrecipient" value="Para" />
+    <phrase id="emailformcc" value="Cc" />
+    <phrase id="emailformbcc" value="Bcc" />
+    <phrase id="emailformsubject" value="Asunto" />
+    <phrase id="emailformmessage" value="Mensaje" />
+    <phrase id="emailformcontenttype" value="Enviar como" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="enteruid" value="Por favor ingrese su ID" client="1" />
+    <phrase id="entervalidemail" value="Por favor ingrese una dirección de correo electrónico válida" client="1" />
+    <phrase id="error" value="Error" />
+    <!-- v2016 -->
+    <phrase id="erroroccurred" value="Se produjo un error mientras se procesaba la solicitud." />
+    <!-- v2016 -->
+    <phrase id="exactphrase" value="Frase exacta" />
+    <phrase id="exceedmaxretry" value="Superar el número máximo de reintentos de inicio de sesión. La cuenta está bloqueada. Por favor intente nuevamente en %t minutos " />
+    <phrase id="exceedmaxemailexport" value="Superar el recuento máximo de correo electrónico de exportación. Por favor, inténtelo más tarde
+" />
+    <phrase id="exportclassnotfound" value="Clase de exportación no encontrada" />
+    <!-- v2019 -->
+    <phrase id="exporting" value="Exportando, por favor espere..." client="1" />
+    <!-- v2018 -->
+    <phrase id="exporttocsv" value="Exportar a CSV" class="icon-csv ew-icon" />
+    <!-- v12 -->
+    <phrase id="exporttocsvtext" value="CSV" />
+    <phrase id="exporttoemail" value="Email" class="icon-email ew-icon" />
+    <!-- v12 -->
+    <phrase id="exporttoemailtext" value="Email" client="1" />
+    <phrase id="exporttoexcel" value="Exportar a Excel" class="icon-excel ew-icon" />
+    <!-- v12 -->
+    <phrase id="exporttoexceltext" value="Excel" />
+    <phrase id="exporttohtml" value="Export ar a HTML" class="icon-html ew-icon" />
+    <!-- v12 -->
+    <phrase id="exporttohtmltext" value="HTML" />
+    <phrase id="exporttopdf" value="Exportar a PDF" class="icon-pdf ew-icon" />
+    <!-- v12 -->
+    <phrase id="exporttopdftext" value="PDF" />
+    <phrase id="exporttoword" value="Exportar a Word" class="icon-word ew-icon" />
+    <!-- v12 -->
+    <phrase id="exporttowordtext" value="Word" />
+    <phrase id="exporttoxml" value="Exportar to XML" class="icon-xml ew-icon" />
+    <!-- v12 -->
+    <phrase id="exporttoxmltext" value="XML" />
+    <phrase id="failedtoexport" value="Exportación fallida" client="1" />
+    <!-- v2018 -->
+    <phrase id="failedtosendmail" value="Error al enviar el correo. " />
+    <phrase id="fieldname" value="Nombre del campo" />
+    <phrase id="fieldrequiredindicator" class="fa fa-asterisk ew-required" />
+    <!-- v2019 -->
+    <phrase id="filenotfound" value="Archivo no encontrado" />
+    <!-- *** characters need to be supported by Config.TempImageFont *** -->
+    <phrase id="filter" value="Filtrar" />
+    <!-- v2016 -->
+    <phrase id="filtername" value="Nombre del filtro" client="1" />
+    <!-- v2016 -->
+    <phrase id="filters" value="Filtros" class="icon-filter ew-icon" />
+    <!-- v2016 -->
+    <phrase id="forgotpasswordresponse" value="Recibirá instrucciones de recuperación de contraseña en breve, si su dirección de correo electrónico está registrada." />
+    <!-- v2019 -->
+    <phrase id="forgotpwd" value="Olvidó su contraseña" />
+    <phrase id="generatepassword" value="Generar Contraseña" class="fa fa-bolt ew-icon" />
+    <!-- v2019 -->
+    <phrase id="goback" value="Volver" />
+    <phrase id="gridaddcancelled" value="Añadir a la cuadrícula cancelado" />
+    <!-- v12 -->
+    <phrase id="gridaddlink" value="Agregar a la cuadrícula" class="icon-grid-add ew-icon" />
+    <!-- v12 -->
+    <phrase id="gridcancellink" value="Cancelar" class="fa fa-times ew-icon" />
+    <!-- v2019 -->
+    <phrase id="grideditcancelled" value="Edición de cuadrícula cancelada" />
+    <!-- v12 -->
+    <phrase id="grideditlink" value="Editar cuadrícula" class="icon-grid-edit ew-icon" />
+    <!-- v12 -->
+    <phrase id="gridinsertlink" value="Insertar" class="fa fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="gridsavelink" value="Guardar" class="fa fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="highlight" value="Realce" />
+    <!-- v12 -->
+    <phrase id="highlightbtn" value="Realce" class="icon-highlight ew-icon" />
+    <!-- v12 -->
+    <phrase id="homepage" value="Página principal" class="fa fa-home ew-icon" />
+    <!-- v2019 -->
+    <phrase id="import" value="Importar" class="fa fa-upload ew-icon" />
+    <!-- v2019 -->
+    <phrase id="importbtn" value="Importar" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror1" value="%C importado de %t registros de %f (éxito: %s, fracaso: %e)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror2" value=", error: %e" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror3" value="Linea %i: %d" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror4" value="archivo de registro: %l" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfileextension" value="Extensión de archivo inválida'%e'" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldname" value="Nombre de campo no válido: %f" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldvalue" value="Valor de campo no válido (nombre de campo %f): %v" />
+    <!-- v2019 -->
+    <phrase id="importmessagemore" value="(%s más)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagenoheaderrow" value="No hay fila de encabezado para importar" />
+    <!-- v2019 -->
+    <phrase id="importmessageprogress" value="Importando %c of %t registros de %f..." client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageservererror" value="Error del Servidor %s: %t" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagesuccess" value="Importado %c de %t registros desde %f exitosamente" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploaderror" value="Error al subir %f: %s" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploadcomplete" value="Carga completa" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploadprogress" value="Subiendo...(p%)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagepleaseselect" value="Por favor seleccione el archivo" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageincorrectfiletype" value="Tipo de archivo incorrecto" client="1" />
+    <!-- v2019 -->
+    <phrase id="importtext" value="Importar" client="1" />
+    <!-- v2019 -->
+    <phrase id="incorrectcreditcard" value="Número de tarjeta de crédito incorrecto" />
+    <phrase id="incorrectdate" value="Fecha incorrecta(%s)" />
+    <phrase id="incorrectdateymd" value="Fecha incorrecta(yyyy%smm%sdd)" />
+    <phrase id="incorrectdatemdy" value="Fecha incorrecta(mm%sdd%syyyy)" />
+    <phrase id="incorrectdatedmy" value="Fecha incorrecta(dd%smm%syyyy)" />
+    <phrase id="incorrectshortdateymd" value="Fecha incorrecta(yy%smm%sdd)" />
+    <phrase id="incorrectshortdatemdy" value="Fecha incorrecta(mm%sdd%syy)" />
+    <phrase id="incorrectshortdatedmy" value="Fecha incorrecta(dd%smm%syy)" />
+    <phrase id="incorrectemail" value="Email incorrecto" client="1" />
+    <phrase id="incorrectfield" value="Campo incorrecto" client="1" />
+    <phrase id="incorrectfloat" value="Número de punto flotante incorrecto" client="1" />
+    <phrase id="incorrectguid" value="GUID incorrecto" client="1" />
+    <phrase id="incorrectinteger" value="Entero incorrecto" client="1" />
+    <phrase id="incorrectphone" value="Numero de telefono incorrecto" client="1" />
+    <phrase id="incorrectregexp" value="Expresión regular no coincidente" client="1" />
+    <phrase id="incorrectrange" value="El número debe estar entre %1 y %2" client="1" />
+    <phrase id="incorrectssn" value="Número de seguro social incorrecto" client="1" />
+    <phrase id="incorrecttime" value="Hora incorrecta (hh%smm(%sss))" />
+    <phrase id="incorrectzip" value="Código ZIP incorrecto" client="1" />
+    <phrase id="inlineaddlink" value="Añadir en linea" class="icon-inline-add ew-icon" />
+    <!-- v12 -->
+    <phrase id="inlinecopylink" value="Copiar en linea" class="icon-inline-copy ew-icon" />
+    <!-- v12 -->
+    <phrase id="inlineeditlink" value="Editar en linea" class="icon-inline-edit ew-icon" />
+    <!-- v12 -->
+    <phrase id="insertcancelled" value="inserción cancelada" />
+    <phrase id="insertfailed" value="Inserción fallida" client="1" />
+    <phrase id="insertlink" value="Insertar" class="fa fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="insertsuccess" value="Insertado con éxito" />
+    <phrase id="invalidemail" value="Email inválido" />
+    <phrase id="invalidfield" value="Campo inválido" />
+    <phrase id="invalidkeyvalue" value="clave inválida" />
+    <phrase id="invalidrecord" value="¡Registro inválido! La clave es nula" client="1" />
+    <phrase id="invalidpostrequest" value="Solicitud de publicación no válida" />
+    <!-- v12 -->
+    <phrase id="invalidparameter" value="Parametro no válido" />
+    <phrase id="invalidpassword" value="Contraseña invalida" />
+    <phrase id="invalidnewpassword" value="La nueva contraseña es inválida" />
+    <phrase id="invaliduidpwd" value="IUsuario o contraseña incorrecta" />
+    <phrase id="keep" value="Mantener" />
+    <phrase id="language" value="Idioma" />
+    <phrase id="learnmore" value="Aprender más" />
+    <!-- v2018.1 -->
+    <phrase id="lightboxtitle" value=" " client="1" />
+    <!-- v12 -->
+    <phrase id="lightboxcurrent" value="imagen{corriente} of {total}" client="1" />
+    <!-- Note: DO NOT translate "{current}" and "{total}" -->
+    <!-- v12 -->
+    <phrase id="lightboxprevious" value="anterior" client="1" />
+    <!-- v12 -->
+    <phrase id="lightboxnext" value="próxima" client="1" />
+    <!-- v12 -->
+    <phrase id="lightboxclose" value="Cerrar" client="1" />
+    <!-- v12 -->
+    <phrase id="lightboxxhrerror" value="Este contenido no se ha podido cargar." client="1" />
+    <!-- v12 -->
+    <phrase id="lightboximgerror" value="Esta imagen no se pudo cargar." client="1" />
+    <!-- v12 -->
+    <phrase id="listactionbutton" value="Acciones" class="icon-user ew-icon" />
+    <!-- v2016 -->
+    <phrase id="loading" value="Cargando..." client="1" />
+    <phrase id="localredirectonly" value="Sólo se permite URL local." />
+    <phrase id="login" value="Iniciar sesión" />
+    <phrase id="logincancelled" value="Inicio de sesión cancelada" />
+    <phrase id="loginfacebook" value="Inicar sesión con Facebook" />
+    <!-- v2018 -->
+    <phrase id="loginfailed" value="El inicio de sesión con %p falló" />
+    <!-- v2018 -->
+    <phrase id="logingoogle" value="Inicar sesión con  Google" />
+    <!-- v2018 -->
+    <phrase id="loginmsg" value="Registrarse para iniciar sesión" />
+    <!-- v2019 -->
+    <phrase id="loginoptions" value="Opciones" />
+    <!-- v12 -->
+    <phrase id="loginor" value="- O -" />
+    <!-- v2018 -->
+    <phrase id="loginpage" value="Iniciar sesión" />
+    <phrase id="logout" value="Cerrar sesión" />
+    <phrase id="lookuplink" value="Buscar - %s" class="fa fa-search ew-icon" />
+    <!-- v2019 -->
+    <phrase id="masterdetailcopylink" value="Master/Copiar detalles" class="icon-md-copy ew-icon" />
+    <!-- v12 -->
+    <phrase id="masterdetaileditlink" value="Master/Editar detalles" class="icon-md-edit ew-icon" />
+    <!-- v12 -->
+    <phrase id="masterdetaillistlink" value="Lista detallada" class="icon-table ew-icon" />
+    <!-- v12 -->
+    <phrase id="masterdetailviewlink" value="Master/Ver detalles" class="icon-md-view ew-icon" />
+    <!-- v12 -->
+    <phrase id="masterrecord" value="Registro maestro: " />
+    <phrase id="maxfilesize" value="Max. Tamaño de archivo (%s bytes) excedido." client="1" />
+    <phrase id="messageok" value="OK" client="1" />
+    <phrase id="midnight" value="midnight" client="1" />
+    <!-- v2017 -->
+    <phrase id="mismatchpassword" value="Contraseña no coincidente" client="1" />
+    <phrase id="missinglookuptablename" value="Falta el nombre de la tabla de búsqueda" />
+    <phrase id="missingdisplayfieldname" value="Falta el nombre del campo de visualización" />
+    <phrase id="missingdisplayfieldvalue" value="Falta el valor del campo de visualización" />
+    <phrase id="missinguserlevelid" value="Falta el ID de nivel de usuario" />
+    <phrase id="missinguserlevelname" value="Falta el nombre de nivel de usuario" />
+    <phrase id="mobilemenu" value="Menù" />
+    <phrase id="more" value="Más" client="1" />
+    <!-- v2018 -->
+    <phrase id="multiplemasterdetails" value="Master/Detalle" class="icon-master-detail ew-icon" />
+    <!-- v12 -->
+    <phrase id="new" value="Nuevo" />
+    <phrase id="newpassword" value="Nueva contraseña" />
+    <phrase id="newvalue" value="Nuevo valor" />
+    <!-- v2016 -->
+    <phrase id="next" value="Próxima" client="1" />
+    <!-- v2016 -->
+    <phrase id="noaddrecord" value="No hay registros para agregar" client="1" />
+    <phrase id="nofieldselected" value="Ningún campo seleccionado para la actualización" client="1" />
+    <phrase id="nopermission" value="Usted no tiene permiso para acceder %s." />
+    <!-- v2016 -->
+    <phrase id="noaddpermission" value="No tienes permiso para añadir el registro.." />
+    <phrase id="nodeletepermission" value="No tienes permiso para borrar el registro." />
+    <phrase id="noeditpermission" value="No tienes permiso para editar el registro." />
+    <phrase id="noon" value="noon" />
+    <!-- v2017 -->
+    <phrase id="norecord" value="No se encontrarón archivos" client="1" />
+    <!-- v2017 -->
+    <phrase id="norecordforkey" value="No se ha encontrado ningún registro para la clave. = " />
+    <phrase id="norecordselected" value="No hay registros seleccionados" client="1" />
+    <phrase id="notablegenerated" value="No hay tablas generadas" />
+    <phrase id="nouserlevel" value="No hay configuraciones de nivel de usuario." />
+    <phrase id="of" value="de" client="1" />
+    <!-- v2017 -->
+    <phrase id="old" value="antiguo" />
+    <phrase id="oldpassword" value="Contraseña antigua" />
+    <phrase id="oops" value="Ups! Algo salió mal." />
+    <!-- v2018 -->
+    <phrase id="optionalreadyexist" value="La opción ya existe" />
+    <phrase id="overwritebtn" value="reemplazar" client="1" />
+    <!-- v2017 -->
+    <phrase id="overwritelink" value="reeplazar" />
+    <phrase id="page" value="Página" client="1" />
+    <!-- v2017 -->
+    <phrase id="pagerfirst" value="Primero" />
+    <phrase id="pagerlast" value="Ultimo" />
+    <phrase id="pagernext" value="Próximo" />
+    <phrase id="pagerprevious" value="Anterior" />
+    <phrase id="password" value="Contraseña" />
+    <phrase id="passwordmask" value="********" />
+    <!-- v2016 -->
+    <phrase id="passwordrequest" value="Contraseña requerida" />
+    <phrase id="passwordchanged" value="contrasela cambiada" />
+    <phrase id="passwordexpired" value="La contraseña expiró. Por favor, cambie la contraseña." />
+    <phrase id="passwordstrength" value="Valor: %p" client="1" />
+    <!-- v2016 -->
+    <phrase id="passwordtoosimple" value="Tu contraseña es demasiado simple " client="1" />
+    <!-- v2016 -->
+    <phrase id="permission" value="Permisos" class="icon-user ew-icon" />
+    <!-- v12 -->
+    <phrase id="permissiontext" value="Permisos" />
+    <!-- v12 -->
+    <phrase id="permissionaddcopy" value="Añadir/copiar" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionadmin" value="Administrar" client="1" />
+    <!-- v2019 -->
+    <phrase id="permissiondelete" value="Eliminar" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionedit" value="Editar" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlistsearchview" value="Listar/Buscar/Ver" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlist" value="Listar" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionsearch" value="Buscar" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionview" value="Ver" client="1" />
+    <!-- v2018 -->
+    <phrase id="personaldatabtn" value="Información personal" />
+    <!-- v2018.1 -->
+    <phrase id="personaldatacontent" value="Su cuenta contiene datos personales que usted nos ha proporcionado. Esta página le permite descargar o borrar esos datos." />
+    <!-- v2018.1 -->
+    <phrase id="personaldatadeletefailure" value="Se produjo un error inesperado al eliminar el usuario" />
+    <!-- v2018.1 -->
+    <phrase id="personaldatadeletesuccess" value="Datos personales eliminados exitosamente" />
+    <!-- v2018.1 -->
+    <phrase id="personaldatatitle" value="Información personal" />
+    <!-- v2018.1 -->
+    <phrase id="personaldatawarning" value="Eliminar estos datos eliminará de forma permanente su cuenta, y esto no se puede recuperar." />
+    <!-- v2018.1 -->
+    <phrase id="pickdate" value="Elija una fecha" />
+    <phrase id="pleaseselect" value="Por favor seleccione " client="1" />
+    <!-- v2016 -->
+    <phrase id="pleasewait" value="Por favor espere..." client="1" />
+    <phrase id="prev" value="Prev" client="1" />
+    <!-- v2016 -->
+    <phrase id="primarykeyunspecified" value="Clave primaria no especificada " />
+    <phrase id="printerfriendly" value="Impresora amigable" class="icon-print ew-icon" />
+    <!-- v12 -->
+    <phrase id="printerfriendlytext" value="Impresora amigable" />
+    <phrase id="privacypolicy" value="Política de privacidad" />
+    <!-- v2018.1 -->
+    <phrase id="privacypolicycontent" value="Utilice esta página para detallar la política de privacidad de su sitio." />
+    <!-- v2018.1 -->
+    <phrase id="quicksearch" value="Búsqueda rápida" />
+    <phrase id="quicksearchbtn" value="Buscar" />
+    <phrase id="quicksearchauto" value="Automático" client="1" />
+    <!-- v12 -->
+    <phrase id="quicksearchautoshort" value="" client="1" />
+    <!-- v12 -->
+    <phrase id="quicksearchall" value="todas las claves" client="1" />
+    <!-- v12 -->
+    <phrase id="quicksearchallshort" value="Todas" client="1" />
+    <!-- v12 -->
+    <phrase id="quicksearchany" value="Cualquier palabra clave" client="1" />
+    <!-- v12 -->
+    <phrase id="quicksearchanyshort" value="Cualquiera" client="1" />
+    <!-- v12 -->
+    <phrase id="quicksearchexact" value="Coincidencia exacta" client="1" />
+    <!-- v12 -->
+    <phrase id="quicksearchexactshort" value="Exacta" client="1" />
+    <!-- v12 -->
+    <phrase id="record" value="Archivos" client="1" />
+    <!-- v2017 -->
+    <phrase id="recordchangedbyotheruser" value="Los datos han sido cambiados por otro usuario. Haga clic en [Recargar] para recuperar los datos modificados (sus datos en el formulario se sobrescribirán) o haga clic en [Sobrescribir] para sobrescribir los datos modificados " />
+    <phrase id="recorddeleted" value="Archivo(s) eliminado" />
+    <phrase id="recordinserted" value="Archivo(s) insertado" />
+    <phrase id="recordupdated" value="Archivo(s) actualizado" />
+    <phrase id="recordsperpage" value="Tamaño de página" client="1" />
+    <!-- v2017 -->
+    <phrase id="register" value="Registrar" />
+    <phrase id="registerbtn" value="Registrar" />
+    <phrase id="registersuccess" value="Registro exitoso" />
+    <phrase id="registersuccessactivate" value="Registro exitoso. Se ha enviado un correo electrónico a su dirección de correo electrónico, haga clic en el enlace del correo electrónico para activar su cuenta " />
+    <phrase id="registerpage" value="Registro" />
+    <phrase id="relatedrecordrequired" value="No puede agregar o actualizar un registro porque el valor de la clave externa no existe en la tabla maestra'%t'" />
+    <phrase id="relatedrecordexists" value="No puede eliminar un registro porque existen registros relacionados en la tabla de detalles'%t'" />
+    <phrase id="reloadbtn" value="Recargar" client="1" />
+    <!-- v2017 -->
+    <phrase id="reloadlink" value="Recargar" />
+    <phrase id="rememberme" value="Recordarme" />
+    <phrase id="remove" value="Mover" />
+    <phrase id="replace" value="Sustituir" />
+    <phrase id="report" value="Reporte" />
+    <phrase id="requestpwd" value="Solicitud de contraseña" />
+    <!-- v2018 -->
+    <phrase id="requestpwdmsg" value="Solicitud de contraseña" />
+    <!-- v2019 -->
+    <phrase id="reset" value="Reset" />
+    <phrase id="resendregisteremailbtn" value="Reenviar email de registro" />
+    <!-- v2016 -->
+    <phrase id="resendregisteremailsuccess" value="Se ha reenviado el correo electrónico de administración del usuario '%u'." />
+    <!-- v2016 -->
+    <phrase id="resendregisteremailfailure" value="ha fallado para reenviar el correo electrónico de registro del usuario '%u' " />
+    <!-- v2016 -->
+    <phrase id="resetconcurrentuserbtn" value="Restablecer sesión de usuario concurrente " />
+    <!-- v2016 -->
+    <phrase id="resetconcurrentusersuccess" value="La sesión para el usuario '%u' ha sido restablecida" />
+    <!-- v2016 -->
+    <phrase id="resetconcurrentuserfailure" value="Error al restablecer la sesión para el usuario '%u' "/>
+    <!-- v2016 -->
+    <phrase id="resetloginretrybtn" value="Restablecer el número de reintentos de inicio de sesión" />
+    <!-- v2016 -->
+    <phrase id="resetloginretrysuccess" value="El recuento de reintentos de inicio de sesión para el usuario '%u' se ha restablecido" />
+    <!-- v2016 -->
+    <phrase id="resetloginretryfailure" value="Error al restablecer el recuento de reintentos de inicio de sesión para el usuario '%u' " />
+    <!-- v2016 -->
+    <phrase id="resetsearchbtn" value="Reiniciar" class="icon-reset-search ew-icon" />
+    <!-- v12 -->
+    <phrase id="resetsearch" value="Reiniciar" />
+    <phrase id="rptavg" value="Promedio" />
+    <phrase id="rptdtlrec" value="Registros detallados" />
+    <phrase id="rptgrandtotal" value="Gran total" />
+    <phrase id="rptmax" value="Máximo" />
+    <phrase id="rptmin" value="Mínimo" />
+    <phrase id="rptsum" value="Suma" />
+    <phrase id="rptsumhead" value="Resumen para" />
+    <phrase id="savebtn" value="Guardar" client="1" />
+    <!-- v2018 -->
+    <phrase id="savecurrentfilter" value="Guardar filtro actual" />
+    <!-- v2016 -->
+    <phrase id="saveusername" value="Guardar mi nombre de usuario" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="search" value="Buscar" client="1" />
+    <!-- v2017 -->
+    <phrase id="searchbtn" value="Buscar" client="1" />
+    <!-- v2018 -->
+    <phrase id="searchlink" value="Buscar" class="fa fa-search ew-icon" />
+    <!-- v2019 -->
+    <phrase id="searchpanel" value="Panel de búsqueda" />
+    <!-- v12 -->
+    <phrase id="selectbtn" value="Seleccionar" client="1" />
+    <!-- v2017 -->
+    <phrase id="sendemailbtn" value="Enviar" />
+    <phrase id="sendemailsuccess" value="Email enviado exitosamente" client="1" />
+    <phrase id="sendpwd" value="Send" />
+    <phrase id="sequencenumber" value="%s." />
+    <phrase id="servercommunicationerror" value="Ocurrió un error al comunicarse con el servidor." />
+    <!-- v2017 -->
+    <phrase id="sessionwillexpire" value="Su sesión expirará en %s segundos. Haga clic en Aceptar para continuar su sesión." client="1" />
+    <!-- v2016 -->
+    <phrase id="sessionexpired" value="Su sesión ha caducado." client="1" />
+    <!-- v2016 -->
+    <phrase id="setpasswordexpiredbtn" value="Establecer contraseña caducada " />
+    <!-- v2016 -->
+    <phrase id="setpasswordexpiredsuccess" value="La contraseña para el usuario '%u' se ha establecido como caducada " />
+    <!-- v2016 -->
+    <phrase id="setpasswordexpiredfailure" value="Error al establecer la contraseña para el usuario '%u' como caducado "/>
+    <!-- v2016 -->
+    <phrase id="showallbtn" value="Mostrar todos" class="icon-reset-search ew-icon" />
+    <!-- v12 -->
+    <phrase id="showall" value="Mostrar todo" />
+    <!-- v12 -->
+    <phrase id="srchlegend" value="" />
+    <phrase id="table" value="TABLA" />
+    <phrase id="tableorview" value="Tablas" client="1" />
+    <!-- v2018 -->
+    <phrase id="tablenotfound" value="Tabla no encontrada" />
+    <!-- v2019 -->
+    <phrase id="tbltypetable" value="Tabla: " />
+    <phrase id="tbltypeview" value="Ver: " />
+    <phrase id="tbltypecustomview" value="Vista personalizada: " />
+    <phrase id="tbltypereport" value="Reporte: " />
+    <phrase id="to" value="to" />
+    <phrase id="total" value="Total" />
+    <phrase id="unauthorizeduserid" value="El usuario actual (%c) no está autorizado para asignar la ID de usuario (%u) " />
+    <phrase id="unauthorizedparentuserid" value="El usuario actual (%c) no está autorizado para asignar la ID de usuario principal (%p). "/>
+    <phrase id="unauthorizedmasteruserid" value="El usuario actual (%c) no está autorizado para insertar el registro. Filtro maestro:%f" />
+    <phrase id="update" value="Actualizar" />
+    <phrase id="updatebtn" value="Actualizar" client="1" />
+    <!-- v2017 -->
+    <phrase id="updatecancelled" value="Actualización cancelada" />
+    <phrase id="updatefailed" value="actualización fallida" />
+    <phrase id="updatelink" value="Actualizacón" class="fa fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="updateselectall" value="Seleccionar todo" />
+    <!-- v12 -->
+    <phrase id="updateselectedlink" value="Actualizar archivos seleccionados" class="icon-edit ew-icon" />
+    <!-- v12 -->
+    <phrase id="updatesuccess" value="Actualización exitosa" />
+    <phrase id="uploading" value="Actualizando..." client="1" />
+    <phrase id="uploadstart" value="Empezar" client="1" />
+    <phrase id="uploadcancel" value="Cancelar" client="1" />
+    <phrase id="uploaddelete" value="Eliminar" client="1" />
+    <phrase id="uploadoverwrite" value="¿Sobrescribir archivo antiguo?" client="1" />
+    <phrase id="uploaderrmsgmaxfilesize" value="El archivo es demasiado grande" client="1" />
+    <phrase id="uploaderrmsgminfilesize" value="Archivo es demasiado pequeño" client="1" />
+    <phrase id="uploaderrmsgacceptfiletypes" value="Tipo de archivo no permitido" client="1" />
+    <phrase id="uploaderrmsgmaxnumberoffiles" value="Número máximo de archivos superados" client="1" />
+    <phrase id="uploaderrmsgmaxwidth" value="La imagen excede el ancho máximo"/>
+    <phrase id="uploaderrmsgminwidth" value="La imagen requiere un ancho mínimo." />
+    <phrase id="uploaderrmsgmaxheight" value="La imagen supera la altura máxima " />
+    <phrase id="uploaderrmsgminheight" value="La imagen requiere una altura mínima "/>
+    <phrase id="uploaderrmsgmaxfilelength" value="La longitud total de los nombres de archivo excede la longitud del campo " client="1" />
+    <phrase id="useradministrator" value="Administrador" client="1" />
+    <!-- v2016 -->
+    <phrase id="useranonymous" value="Anónimo" client="1" />
+    <!-- v2016 -->
+    <phrase id="userdefault" value="Defecto" client="1" />
+    <!-- v2016 -->
+    <phrase id="useremail" value="Email" />
+    <phrase id="userexists" value="El usuario ya existe" />
+    <phrase id="userlevel" value="Nivel de usuario: " />
+    <phrase id="userleveladministratorname" value="El nombre del nivel de usuario para el nivel de usuario -1 debe ser 'Administrador'" client="1" />
+    <phrase id="userlevelanonymousname" value="El nombre del nivel de usuario para el nivel de usuario -2 debe ser 'Anónimo'" client="1" />
+    <!-- v2016 -->
+    <phrase id="userlevelpermission" value="Permisos de nivel de usuario" />
+    <phrase id="userlevelidinteger" value="El ID de nivel de usuario debe ser entero" client="1" />
+    <phrase id="userleveldefaultname" value="El nombre del nivel de usuario para el nivel de usuario 0 debe ser 'Predeterminado'" client="1" />
+    <phrase id="userlevelidincorrect" value="El ID de nivel de usuario definido por el usuario debe ser mayor que 0 " client="1" />
+    <phrase id="userlevelnameincorrect" value="El nombre del nivel de usuario definido por el usuario no puede ser 'Administrador' o 'Predeterminado'" client="1" />
+    <phrase id="userloggedin" value="El usuario '%u' ya ha iniciado sesión" />
+    <phrase id="username" value="Nombre de usuario" />
+    <phrase id="usernotfound" value="Usuario '%u' no encontrado" />
+    <!-- v2018 -->
+    <phrase id="userprofilecorrupted" value="El perfil de usuario está dañado. Por favor, cierre la sesión y vuelva a iniciar sesión " />
+    <phrase id="valuenotexist" value="El valor no existe" client="1" />
+    <!-- v12 -->
+    <phrase id="view" value="View" />
+    <phrase id="viewimagegallery" value="Click para visualizar la imagen" />
+    <!-- v2016 -->
+    <phrase id="viewlink" value="Ver" class="icon-view ew-icon" />
+    <!-- v12 -->
+    <phrase id="viewpageaddlink" value="Añadir" class="fa fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="viewpagecopylink" value="Copiar" class="icon-copy ew-icon" />
+    <!-- v12 -->
+    <phrase id="viewpagedeletelink" value="Eliminar" class="fa fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="viewpagedetaillink" value="" />
+    <phrase id="viewpageeditlink" value="Editar" class="icon-edit ew-icon" />
+    <!-- v12 -->
+    <phrase id="worksheetnotexist" value="La hoja de trabajo no existe." />
+    <!-- v2019 -->
+    <phrase id="wrongfiletype" value="El tipo de archivo no está permitido." client="1" />
+    <phrase id="equal" value="=" />
+    <!-- v12.0.3 -->
+    <phrase id="=" value="&amp;nbsp;" />
+    <!-- v2016 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;" />
+    <phrase id="&lt;" value="&amp;lt;" />
+    <phrase id="&lt;=" value="&amp;lt;=" />
+    <phrase id="&gt;" value="&amp;gt;" />
+    <phrase id="&gt;=" value="&amp;gt;=" />
+    <phrase id="like" value="contiene" />
+    <phrase id="not like" value="no contiene" />
+    <phrase id="starts with" value="comienza con" />
+    <phrase id="ends with" value="termina con" />
+    <phrase id="is null" value="es nulo" />
+    <phrase id="is not null" value="is not null" />
+    <phrase id="between" value="Ente" />
+    <phrase id="and" value="and" />
+    <phrase id="or" value="or" />
+    <phrase id="am" value="AM" client="1" />
+    <!-- v2017 -->
+    <phrase id="pm" value="PM" client="1" />
+    <!-- v2017 -->
+  </global>
+  <project>
+    <phrase id="bodytitle" value="SIGECO" />
+    <phrase id="footertext" value="&amp;copy;2019 e.World Technology Ltd. All rights reserved." />
+    <menu id="88">
+      <phrase id="menutext" value="vw Odontograma Info Paciente" />
+    </menu>
+	<menu id="90">
+      <phrase id="menutext" value="Plan Tratamiento Detalle" />
+    </menu>
+    <menu id="89">
+      <phrase id="menutext" value="Plan Tratamiento" />
+    </menu>
+    <menu id="87">
+      <phrase id="menutext" value="vw Paciente Expediente" />
+    </menu>
+    <menu id="26">
+      <phrase id="menutext" value="Básicos" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="Catálogo" />
+    </menu>
+    <menu id="21">
+      <phrase id="menutext" value="Detalle Catálogo" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="Catálogo Tratamientos" />
+    </menu>
+    <menu id="52">
+      <phrase id="menutext" value="Pacientes" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="Paciente" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="Expediente" />
+    </menu>
+    <menu id="78">
+      <phrase id="menutext" value="Antecedentes" />
+    </menu>
+    <menu id="1">
+      <phrase id="menutext" value="Antecedente Dental" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="Antecedente Familiar" />
+    </menu>
+    <menu id="79">
+      <phrase id="menutext" value="Examenes" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="Examen Complementario" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="Odontograma" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="Periodontograma" />
+    </menu>
+    <menu id="13">
+      <phrase id="menutext" value="Placagrama" />
+    </menu>
+    <menu id="80">
+      <phrase id="menutext" value="Tratamientos" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="Tratamiento Realizado" />
+    </menu>
+    <menu id="85">
+      <phrase id="menutext" value="Citas" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="Registro de Citas" />
+    </menu>
+    <menu id="86">
+      <phrase id="menutext" value="Calendario" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="Diente" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="Odontograma Detalle" />
+    </menu>
+    <menu id="12">
+      <phrase id="menutext" value="Periodontograma Detalle" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="Placagrama Detalle" />
+    </menu>
+    <menu id="15">
+      <phrase id="menutext" value="Simbolo" />
+    </menu>
+    <menu id="19">
+      <phrase id="menutext" value="Usuario" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="Validacion Simbolo Odontograma" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="vw Dientes Incompatibles" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="vw Odontograma Detalle" />
+    </menu>
+    <menu id="24">
+      <phrase id="menutext" value="vw Simbolos Incompatibles" />
+    </menu>
+    <table id="antecedentedental">
+      <phrase id="tblcaption" value="Antecedente Dental" />
+      <field id="nantecedentedentalid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="ID Expediente" />
+      </field>
+      <field id="dfechaultimavisitadentista">
+        <phrase id="fldcaption" value="Última visita al dentista" />
+      </field>
+      <field id="smotivovisita">
+        <phrase id="fldcaption" value="Motivo de visita" />
+      </field>
+      <field id="sexperienciaasistencial">
+        <phrase id="fldcaption" value="Comentarios experiencia" />
+      </field>
+      <field id="ntratamientoquirurgico">
+        <phrase id="fldcaption" value="Tratamiento Quirúrgico" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Si" />
+      </field>
+      <field id="ntratamientorestauracion">
+        <phrase id="fldcaption" value="Tratamiento Restauración" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Si" />
+      </field>
+      <field id="ntratamientoperidoncia">
+        <phrase id="fldcaption" value="Tratamiento Peridoncia" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Si" />
+      </field>
+      <field id="ntratamientoendodoncia">
+        <phrase id="fldcaption" value="Tratamiento Endodoncia" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Si" />
+      </field>
+      <field id="ntratamientoortodoncia">
+        <phrase id="fldcaption" value="Tratamiento Ortodoncia" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Si" />
+      </field>
+      <field id="ntratamientoprotesis">
+        <phrase id="fldcaption" value="Tratamiento Protesis" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Si" />
+      </field>
+      <field id="ncolocadoanestesia">
+        <phrase id="fldcaption" value="Anestesia" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Si" />
+      </field>
+      <field id="nreaccionalergicaanestesia">
+        <phrase id="fldcaption" value="Reacción Alérgica Anestesia" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Si" />
+      </field>
+      <field id="sreaccionalergicaanestesia">
+        <phrase id="fldcaption" value="Reacción Alérgica Anestesia" />
+      </field>
+      <field id="sdescripciontejidosblandos">
+        <phrase id="fldcaption" value="Descripción Tejidos Blandos" />
+      </field>
+      <field id="shistoriaenfermedadactual">
+        <phrase id="fldcaption" value="Historia Enfermedad Actual" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="antecedentefamiliar">
+      <phrase id="tblcaption" value="Antecedente Familiar" />
+      <field id="nantecedentefamiliarid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="Expediente" />
+      </field>
+      <field id="nparentescoid">
+        <phrase id="fldcaption" value="Parentesco" />
+      </field>
+      <field id="santecedente">
+        <phrase id="fldcaption" value="Descripción" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="catalogo">
+      <phrase id="tblcaption" value="Catálogo" />
+      <field id="ncatalogoid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="ncodigo">
+        <phrase id="fldcaption" value="Código" />
+      </field>
+      <field id="sdescripcion">
+        <phrase id="fldcaption" value="Descripción" />
+      </field>
+      <field id="nactivo">
+        <phrase id="fldcaption" value="Estado" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Activo" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="Inactivo" />
+      </field>
+      <field id="ncatalogousuario">
+        <phrase id="fldcaption" value="Catalogo Usuario" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="Fecha Creacion" />
+      </field>
+      <field id="dfechamodificaicon">
+        <phrase id="fldcaption" value="d Fecha Modificaicon" />
+      </field>
+    </table>
+    <table id="cita">
+      <phrase id="tblcaption" value="Cita" />
+      <field id="ncitaid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="Expediente" />
+      </field>
+      <field id="smotivocita">
+        <phrase id="fldcaption" value="Motivo Cita" />
+      </field>
+      <field id="dfechahoracita">
+        <phrase id="fldcaption" value="Fecha" />
+      </field>
+      <field id="dhora">
+        <phrase id="fldcaption" value="Hora" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="diente">
+      <phrase id="tblcaption" value="Diente" />
+      <field id="ndienteid">
+        <phrase id="fldcaption" value="n Diente ID" />
+      </field>
+      <field id="ntipodiente">
+        <phrase id="fldcaption" value="n Tipo Diente" />
+      </field>
+      <field id="snombrediente">
+        <phrase id="fldcaption" value="s Nombre Diente" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="n Estado ID" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="examencomplementario">
+      <phrase id="tblcaption" value="Examen Complementario" />
+      <field id="nexamencomplementarioid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="Expediente" />
+      </field>
+      <field id="nestudiosradiologicos">
+        <phrase id="fldcaption" value="Estudios radiológicos" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Sí" />
+      </field>
+      <field id="sdescripcioner">
+        <phrase id="fldcaption" value="Resultados E. Radiológicos" />
+      </field>
+      <field id="nestudioslaboratorio">
+        <phrase id="fldcaption" value="Estudios de Laboratorio" />
+        <phrase id="fldtagvalue1" value="0" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="1" />
+        <phrase id="fldtagcaption2" value="Sí" />
+      </field>
+      <field id="sdescripcionel">
+        <phrase id="fldcaption" value="Resultados E. Lab." />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="expediente">
+      <phrase id="tblcaption" value="Expediente" />
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="npacienteid">
+        <phrase id="fldcaption" value="ID Paciente" />
+      </field>
+      <field id="ncodigoexpediente">
+        <phrase id="fldcaption" value="Código" />
+      </field>
+      <field id="dfechaexpediente">
+        <phrase id="fldcaption" value="Fecha de Expediente" />
+      </field>
+      <field id="sacppesa">
+        <phrase id="fldcaption" value="Antecedentes patológicos" />
+      </field>
+      <field id="ngruposanguineoid">
+        <phrase id="fldcaption" value="Grupo Sanguíneo" />
+      </field>
+      <field id="naaama">
+        <phrase id="fldcaption" value="Posee antecedentes alérgicos" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Activo" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="Inactivo" />
+      </field>
+      <field id="saaama">
+        <phrase id="fldcaption" value="Especifique" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="odontograma">
+      <phrase id="tblcaption" value="Odontograma" />
+      <field id="nodontogramaid">
+        <phrase id="fldcaption" value="n Odontograma ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="Expediente" />
+      </field>
+      <field id="dfechaodontograma">
+        <phrase id="fldcaption" value="Fecha Odontograma" />
+      </field>
+      <field id="sobservaciones">
+        <phrase id="fldcaption" value="Observaciones" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="odontogramadetalle">
+      <phrase id="tblcaption" value="Odontograma Detalle" />
+      <field id="nodontogramadetalleid">
+        <phrase id="fldcaption" value="n Odontograma Detalle ID" />
+      </field>
+      <field id="nodontogramaid">
+        <phrase id="fldcaption" value="n Odontograma ID" />
+      </field>
+      <field id="nsimboloid">
+        <phrase id="fldcaption" value="n Simbolo ID" />
+      </field>
+      <field id="ndienteid">
+        <phrase id="fldcaption" value="n Diente ID" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="n Estado ID" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="paciente">
+      <phrase id="tblcaption" value="Paciente" />
+      <field id="npacienteid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="ncodigo">
+        <phrase id="fldcaption" value="Código" />
+      </field>
+      <field id="snombre">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="sapellido1">
+        <phrase id="fldcaption" value="Primer Apellido" />
+      </field>
+      <field id="sapellido2">
+        <phrase id="fldcaption" value="Segundo Apellido" />
+      </field>
+      <field id="ngeneroid">
+        <phrase id="fldcaption" value="Género" />
+      </field>
+      <field id="slugarnacimiento">
+        <phrase id="fldcaption" value="Lugar de Nacimiento" />
+      </field>
+      <field id="dfechanacimiento">
+        <phrase id="fldcaption" value="Fecha de Nacimiento" />
+      </field>
+      <field id="sdireccion">
+        <phrase id="fldcaption" value="Dirección" />
+      </field>
+      <field id="scedula">
+        <phrase id="fldcaption" value="Cédula" />
+      </field>
+      <field id="stelefono">
+        <phrase id="fldcaption" value="Teléfono" />
+      </field>
+      <field id="semergencianombre">
+        <phrase id="fldcaption" value="En caso de emegercia llamar a" />
+      </field>
+      <field id="semergenciaparentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+      </field>
+      <field id="semergenciatelefono">
+        <phrase id="fldcaption" value="Teléfono(s)" />
+      </field>
+      <field id="nactivo">
+        <phrase id="fldcaption" value="Activo" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="periodontograma">
+      <phrase id="tblcaption" value="Periodontograma" />
+      <field id="nperiodontogramaid">
+        <phrase id="fldcaption" value="n Periodontograma ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="Expediente" />
+      </field>
+      <field id="dfechaperiodontograma">
+        <phrase id="fldcaption" value="Fecha Realización" />
+      </field>
+      <field id="sobservaciones">
+        <phrase id="fldcaption" value="Observaciones" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="periodontogramadetalle">
+      <phrase id="tblcaption" value="Periodontograma Detalle" />
+      <field id="nperiodontogramadetalleid">
+        <phrase id="fldcaption" value="n Periodontograma Detalle ID" />
+      </field>
+      <field id="nperiodontogramaid">
+        <phrase id="fldcaption" value="n Periodontograma ID" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="n Estado ID" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="placagrama">
+      <phrase id="tblcaption" value="Placagrama" />
+      <field id="nplacagramaid">
+        <phrase id="fldcaption" value="n Placagrama ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="Expediente" />
+      </field>
+      <field id="sobservaciones">
+        <phrase id="fldcaption" value="Observaciones" />
+      </field>
+      <field id="dfechaplacagrama">
+        <phrase id="fldcaption" value="Fecha Realización" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="placagramadetalle">
+      <phrase id="tblcaption" value="Placagrama Detalle" />
+      <field id="nplacagramadetalleid">
+        <phrase id="fldcaption" value="n Placagrama Detalle ID" />
+      </field>
+      <field id="nplacagramaid">
+        <phrase id="fldcaption" value="n Placagrama ID" />
+      </field>
+      <field id="ndienteid">
+        <phrase id="fldcaption" value="n Diente ID" />
+      </field>
+      <field id="nsimboloid">
+        <phrase id="fldcaption" value="n Simbolo ID" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="n Estado ID" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="simbolo">
+      <phrase id="tblcaption" value="Simbolo" />
+      <field id="nsimboloid">
+        <phrase id="fldcaption" value="n Simbolo ID" />
+      </field>
+      <field id="sdescripcion">
+        <phrase id="fldcaption" value="s Descripcion" />
+      </field>
+      <field id="spathimage">
+        <phrase id="fldcaption" value="s Path Image" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="n Estado ID" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+      <field id="tipo">
+        <phrase id="fldcaption" value="tipo" />
+      </field>
+      <field id="sdescripcionlarga">
+        <phrase id="fldcaption" value="s Descripcion Larga" />
+      </field>
+    </table>
+    <table id="tratamiento">
+      <phrase id="tblcaption" value="Tratamiento" />
+      <field id="ntratamientoid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="sdescripcion">
+        <phrase id="fldcaption" value="Nombre Tratamiento" />
+      </field>
+      <field id="ncosto">
+        <phrase id="fldcaption" value="Costo" />
+      </field>
+      <field id="nmonedacostoid">
+        <phrase id="fldcaption" value="Moneda" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreaciion">
+        <phrase id="fldcaption" value="d Fecha Creaciion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="tratamientorealizado">
+      <phrase id="tblcaption" value="Tratamiento Realizado" />
+      <field id="ntratamientorealizadoid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="Expediente" />
+      </field>
+      <field id="sdescripciontratamiento">
+        <phrase id="fldcaption" value="Descripción Tratamiento" />
+      </field>
+      <field id="dfechatratamiento">
+        <phrase id="fldcaption" value="Fecha Tratamiento" />
+      </field>
+      <field id="nestadoid">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="usuario">
+      <phrase id="tblcaption" value="Usuario" />
+      <field id="nusuarioid">
+        <phrase id="fldcaption" value="n Usuario Id" />
+      </field>
+      <field id="semail">
+        <phrase id="fldcaption" value="Correo" />
+      </field>
+      <field id="spassword">
+        <phrase id="fldcaption" value="Contraseña" />
+      </field>
+      <field id="susername">
+        <phrase id="fldcaption" value="Nombre Usuario" />
+      </field>
+      <field id="nactivo">
+        <phrase id="fldcaption" value="Activo" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Activo" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="Inactivo" />
+      </field>
+    </table>
+    <table id="validacionsimboloodontograma">
+      <phrase id="tblcaption" value="Validacion Simbolo Odontograma" />
+      <field id="nvalidacionsimboloid">
+        <phrase id="fldcaption" value="n Validacion Simbolo ID" />
+      </field>
+      <field id="ntipovalidacionid">
+        <phrase id="fldcaption" value="n Tipo Validacion ID" />
+      </field>
+      <field id="nelemento1id">
+        <phrase id="fldcaption" value="n Elemento 1ID" />
+      </field>
+      <field id="nelemento2id">
+        <phrase id="fldcaption" value="n Elemento 2ID" />
+      </field>
+      <field id="nactivo">
+        <phrase id="fldcaption" value="n Activo" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="susuariocreacion">
+        <phrase id="fldcaption" value="s Usuario Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+      <field id="susuariomodificaicon">
+        <phrase id="fldcaption" value="s Usuario Modificaicon" />
+      </field>
+    </table>
+    <table id="valorcatalogo">
+      <phrase id="tblcaption" value="Detalle Catálogo" />
+      <field id="nvalorcatalogoid">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="ncatalogoid">
+        <phrase id="fldcaption" value="Catálogo" />
+      </field>
+      <field id="ncodigo">
+        <phrase id="fldcaption" value="Código" />
+      </field>
+      <field id="sdescripcion">
+        <phrase id="fldcaption" value="Descripción" />
+      </field>
+      <field id="nactivo">
+        <phrase id="fldcaption" value="Estado" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Activo" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="Inactivo" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+      <field id="nvalorcatalogousuario">
+        <phrase id="fldcaption" value="n Valor Catalogo Usuario" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+    </table>
+    <table id="vwdientesincompatibles">
+      <phrase id="tblcaption" value="vw Dientes Incompatibles" />
+      <field id="diente1">
+        <phrase id="fldcaption" value="Diente 1" />
+      </field>
+      <field id="diente2">
+        <phrase id="fldcaption" value="Diente 2" />
+      </field>
+    </table>
+    <table id="vwodontogramadetalle">
+      <phrase id="tblcaption" value="vw Odontograma Detalle" />
+      <field id="nodontogramadetalleid">
+        <phrase id="fldcaption" value="n Odontograma Detalle ID" />
+      </field>
+      <field id="tipo">
+        <phrase id="fldcaption" value="tipo" />
+      </field>
+      <field id="ndienteid">
+        <phrase id="fldcaption" value="n Diente ID" />
+      </field>
+      <field id="nsimboloid">
+        <phrase id="fldcaption" value="n Simbolo ID" />
+      </field>
+      <field id="snombrediente">
+        <phrase id="fldcaption" value="s Nombre Diente" />
+      </field>
+      <field id="sdescripcion">
+        <phrase id="fldcaption" value="s Descripcion" />
+      </field>
+      <field id="nodontogramaid">
+        <phrase id="fldcaption" value="n Odontograma ID" />
+      </field>
+    </table>
+    <table id="vwsimbolosincompatibles">
+      <phrase id="tblcaption" value="vw Simbolos Incompatibles" />
+      <field id="simbolo1">
+        <phrase id="fldcaption" value="Simbolo 1" />
+      </field>
+      <field id="simbolo2">
+        <phrase id="fldcaption" value="Simbolo 2" />
+      </field>
+    </table>
+    <table id="vwpacienteexpediente">
+      <phrase id="tblcaption" value="vw Paciente Expediente" />
+      <field id="npacienteid">
+        <phrase id="fldcaption" value="n Paciente ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="n Expediente ID" />
+      </field>
+      <field id="ncodigoexpediente">
+        <phrase id="fldcaption" value="n Codigo Expediente" />
+      </field>
+      <field id="snombre">
+        <phrase id="fldcaption" value="s Nombre" />
+      </field>
+      <field id="sapellido1">
+        <phrase id="fldcaption" value="s Apellido 1" />
+      </field>
+      <field id="sapellido2">
+        <phrase id="fldcaption" value="s Apellido 2" />
+      </field>
+      <field id="scedula">
+        <phrase id="fldcaption" value="s Cedula" />
+      </field>
+    </table>
+    <table id="vwodontogramainfopaciente">
+      <phrase id="tblcaption" value="vw Odontograma Info Paciente" />
+      <field id="nodontogramaid">
+        <phrase id="fldcaption" value="n Odontograma ID" />
+      </field>
+      <field id="npacienteid">
+        <phrase id="fldcaption" value="n Paciente ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="n Expediente ID" />
+      </field>
+      <field id="ncodigoexpediente">
+        <phrase id="fldcaption" value="n Codigo Expediente" />
+      </field>
+      <field id="nombrepaciente">
+        <phrase id="fldcaption" value="Nombre Paciente" />
+      </field>
+      <field id="scedula">
+        <phrase id="fldcaption" value="s Cedula" />
+      </field>
+      <field id="dfechaodontograma">
+        <phrase id="fldcaption" value="d Fecha Odontograma" />
+      </field>
+    </table>
+	    <table id="plantratamiento">
+      <phrase id="tblcaption" value="Plan Tratamiento" />
+      <field id="nplantratamientoid">
+        <phrase id="fldcaption" value="n Plan Tratamiento ID" />
+      </field>
+      <field id="nexpedienteid">
+        <phrase id="fldcaption" value="Expediente" />
+      </field>
+      <field id="dfechaasignacion">
+        <phrase id="fldcaption" value="Fecha Asignacion" />
+      </field>
+      <field id="sobservaciones">
+        <phrase id="fldcaption" value="Observaciones" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+    <table id="plantratamientodetalle">
+      <phrase id="tblcaption" value="Plan Tratamiento Detalle" />
+      <field id="nplantratamientodetalleid">
+        <phrase id="fldcaption" value="n Plan Tratamiento Detalle ID" />
+      </field>
+      <field id="nplantratamientoid">
+        <phrase id="fldcaption" value="n Plan Tratamiento ID" />
+      </field>
+      <field id="ntratamientoid">
+        <phrase id="fldcaption" value="Tratamiento" />
+      </field>
+      <field id="dfechatratamiento">
+        <phrase id="fldcaption" value="Fecha Tratamiento" />
+      </field>
+      <field id="ncosto">
+        <phrase id="fldcaption" value="Costo" />
+      </field>
+      <field id="nmonedaid">
+        <phrase id="fldcaption" value="Moneda" />
+      </field>
+      <field id="dfechacreacion">
+        <phrase id="fldcaption" value="d Fecha Creacion" />
+      </field>
+      <field id="dfechamodificacion">
+        <phrase id="fldcaption" value="d Fecha Modificacion" />
+      </field>
+    </table>
+  </project>
+</ew-language>
